@@ -10,7 +10,7 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 moveVector = Vector3.zero;
 
 
-    public float jumpSpeed = 10;
+    public float jumpSpeed;
     private float speed = 15.0f;
     private float verticalVelocity = 0.0f;
     private float gravity = 2.0f;
